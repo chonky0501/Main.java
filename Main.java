@@ -1,1 +1,17 @@
+class Main{
 
+  public static void main(String[] args) {
+        System.out.println("Hello World!");//codespace
+        System.out.println("Hello World2!");//vscode local pc
+        System.out.println("Hello World!3");//codespace
+        Toy toy1 = new Toy();
+        toy1.name = "Rage pink";
+        toy1.brand = "Lab vuvu";
+        toy1.price = 4500;
+        toy1.quantity = 12;
+        toy1.setPrice(toy1.price*0.5); //this set the price to 50% for the event sale 6-6-2026
+        System.out.println(toy1.price);
+        Toy toy2 = new Toy();
+        System.out.println("end of program");
+    }
+}
